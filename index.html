@@ -32,7 +32,8 @@
               </p>
               <p>Curretnly, I am writing my master thesis at <a href="http://gvv.mpi-inf.mpg.de/GVV_Team.html">GVV group</a>, MPI-INF,
                 jointly supervised by <a href="https://people.mpi-inf.mpg.de/~theobalt/">Prof. Christian Theobalt</a> and <a href="https://www.vision.rwth-aachen.de/person/1/">Prof. Bastian Leibe</a>.
-                I am a master student at <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1">RWTH Aachen</a>, where I study on computer vision, computer graphics and machine learning.
+                I am a master student at RWTH Aachen, where I study on computer vision, computer graphics and machine learning.
+                I received my B.E. degree from Beijing Institute of Technology in 2017.
               </p>
               <p>
                   I'm interested in computer vision, computer graphics and the applications like AR/VR which combine both.
@@ -51,6 +52,10 @@
             </td>
           </tr>
         </tbody></table>
+
+
+
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -62,8 +67,6 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-
           <tr onmouseout="html_stop()" onmouseover="html_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -111,10 +114,54 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Service</heading>
+              <heading>Projects</heading>
             </td>
           </tr>
         </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="html_stop()" onmouseover="html_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='fluid_image'>
+                    <img src='images/fluid_simulation.png' width="160"></div>
+                  <img src='images/fluid_simulation.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function html_start() {
+                    document.getElementById('fluid_image').style.opacity = "1";
+                  }
+  
+                  function html_stop() {
+                    document.getElementById('fluid_image').style.opacity = "0";
+                  }
+                  html_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://github.com/NengQian/fluid_simulation">
+                  <papertitle> Particle Based Fluid Simulation </papertitle>
+                </a>
+                <br>
+                <strong>Neng Qian</strong>,
+                Chui Chao,
+                 <br>
+          <em>ECCV</em>, 2020  
+                <br>
+                <a href="https://github.com/NengQian/fluid_simulation">Code</a>
+                <p></p>
+                <p> 
+                This project is for the fluid simulation lab course in 2018 SS at RWTH。
+                It includes two particle-based fluid simulation solvers (PBF and WCSPH), and a visualization program based on Merely3D and imgui. 
+                It applys Marching cubes to reconstruct fluid surface.
+
+                </p>
+              </td>
+            </tr> 
+  
+<!-- 
+            todo: 1. maybe a hobby for the my hobby??
+                  2. google anlytic? -->
+
         <!-- <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>

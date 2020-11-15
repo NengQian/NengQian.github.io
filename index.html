@@ -30,9 +30,10 @@
               <p style="text-align:center">
                 <name>Neng Qian</name>
               </p>
-              <p>Currently, I am writing my master thesis at <a href="http://gvv.mpi-inf.mpg.de/GVV_Team.html">GVV group</a>, MPI-INF,
+              <p>Currently I am a Graphic Engineer at <a href = "https://www.nextstudios.com/index_en/">NExT Studio</a> where we are working to build photorealistic face model. 
+                Before, I was writing my master thesis at <a href="http://gvv.mpi-inf.mpg.de/GVV_Team.html">GVV group</a>, MPI-INF,
                 jointly supervised by <a href="https://people.mpi-inf.mpg.de/~theobalt/">Prof. Christian Theobalt</a> and <a href="https://www.vision.rwth-aachen.de/person/1/">Prof. Bastian Leibe</a>.
-                I am a master student at RWTH Aachen, where I study on computer vision, computer graphics and machine learning.
+                I was a master student at RWTH Aachen, where I studied on computer vision, computer graphics and machine learning.
                 I received my B.E. degree from Beijing Institute of Technology in 2017.
               </p>
               <p>
@@ -66,6 +67,7 @@
             </td>
           </tr>
         </tbody></table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="html_stop()" onmouseover="html_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -109,6 +111,54 @@
             </td>
           </tr> 
 
+          <!-- # the second paper -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr onmouseout="rgb2hands_stop()" onmouseover="rgb2hands_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='RGB2Hands_imgage'>
+                      <img src='images/RGB2Hands.png' width="160"></div>
+                    <img src='images/RGB2Hands.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function html_start() {
+                      document.getElementById('RGB2Hands_imgage').style.opacity = "1";
+                    }
+    
+                    function html_stop() {
+                      document.getElementById('RGB2Hands_imgage').style.opacity = "0";
+                    }
+                    html_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://handtracker.mpi-inf.mpg.de/projects/RGB2Hands/">
+                    <papertitle>RGB2Hands: Real-Time Tracking of 3D Hand Interactions from Monocular RGB Video</papertitle>
+                  </a>
+                  <br>
+                  <a href="https://people.mpi-inf.mpg.de/~jwang/">Jiayi Wang</a>,
+                  <a href="https://people.mpi-inf.mpg.de/~frmueller/">Franziska Müller</a>,
+                  <a href="https://sites.google.com/site/fbernardpi/">Florian Bernard</a>,      
+                  Suzanne Sorli,
+                  <a href="https://www.mpi-inf.mpg.de/~osotnych/">Oleksandr Sotnychenko</a>,   
+                  <strong>Neng Qian</strong>,
+                  <a href="https://mslab.es/otaduy/">Miguel A. Otaduy</a>,      
+                  <a href="https://dancasas.github.io/">Dan Casas</a>,      
+                  <a href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>
+                  <br>
+            <em>SIGGRAPHAsia</em>, 2020  
+                  <br>
+                  <a href="https://handtracker.mpi-inf.mpg.de/projects/RGB2Hands/">Project Page</a>
+            /
+                  <!-- <a href="https://handtracker.mpi-inf.mpg.de/projects/HandTextureModel/content/HandTextureModel_ECCV2020.pdf">Paper</a> -->
+            <!-- /
+                  <a href="https://github.com/tancik/fourier-feature-networks">code</a> -->
+                  <p></p>
+                  <p>
+                      Tracking and reconstructing the 3D pose and geometry of two hands in interaction is a challenging problem that has a high relevance for several human-computer interaction applications, including AR/VR, robotics, or sign language recognition. Existing works are either limited to simpler tracking settings (e.g., considering only a single hand or two spatially separated hands), or rely on less ubiquitous sensors, such as depth cameras. In contrast, in this work we present the first real-time method for motion capture of skeletal pose and 3D surface geometry of hands from a single RGB camera that explicitly considers close interactions. In order to address the inherent depth ambiguities in RGB data, we propose a novel multi-task CNN that regresses multiple complementary pieces of information, including segmentation, dense matchings to a 3D hand model, and 2D keypoint positions, together with newly proposed intra-hand relative depth and inter-hand distance maps. These predictions are subsequently used in a generative model fitting framework in order to estimate pose and shape parameters of a 3D hand model for both hands. We experimentally verify the individual components of our RGB two-hand tracking and 3D reconstruction pipeline through an extensive ablation study. Moreover, we demonstrate that our approach offers previously unseen two-hand tracking performance from RGB, and quantitatively and qualitatively outperforms existing RGB-based methods that were not explicitly designed for two-hand interactions. Moreover, our method even performs on-par with depth-based real-time methods.
+                  </p>
+                </td>
+              </tr> 
     
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
@@ -159,14 +209,14 @@
 
 
 
-<!-- 
+
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
               <tr>
                 <td>
                   <heading>Misc</heading>
                 </td>
               </tr>
-            </tbody></table> -->
+            </tbody></table>
             
 <!-- 
             todo: 1. maybe a hobby for the my hobby??
